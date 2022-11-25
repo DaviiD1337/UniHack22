@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0cZNQntqsWA7qMqB46E2pd4RRrvLazPvOhJ3kfC2d5cdsTQUJnHd2ob1ozP453HN871RYViWpACJQn/wJ88YHw==",
+  "success": true,
+  "projectFilePath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.iOS\\CityInMotionApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

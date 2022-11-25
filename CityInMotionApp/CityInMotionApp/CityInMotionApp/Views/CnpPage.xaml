@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CityInMotionApp.Views.CnpPage"
+             BackgroundColor="white">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,10">
+            <Label Text="Login"
+                
+                HorizontalOptions="Center" 
+                   TextColor="Black"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   />
+            <Entry Placeholder="CNP"
+                   TextColor="Black"
+                   FontSize="Medium"
+                    
+                   BackgroundColor="LightBlue"
+                   MaxLength="300"
+                   HorizontalOptions="FillAndExpand"
+                   />
+            <Entry Placeholder="Location"
+                   TextColor="Black"
+                   FontSize="Medium"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="LightBlue"
+                   />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
