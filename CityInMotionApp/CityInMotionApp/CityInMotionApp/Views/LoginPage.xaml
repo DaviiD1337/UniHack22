@@ -27,7 +27,8 @@
                    MaxLength="300"
                    HorizontalOptions="FillAndExpand"
                    />
-                <Entry Placeholder="{Binding UserCnp}"
+                <Entry Placeholder="Location"
+                       Text="{Binding UserLocation}"
                    TextColor="Black"
                    FontSize="Medium"
                    HorizontalOptions="FillAndExpand"

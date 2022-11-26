@@ -1,4 +1,5 @@
 ﻿using CityInMotionApp.Models;
+using CityInMotionApp.UserInfo;
 using CityInMotionApp.Views;
 using System;
 using System.Collections.ObjectModel;
@@ -11,34 +12,39 @@ namespace CityInMotionApp.ViewModels
     public class ItemsViewModel : BaseViewModel
     {
         private Item _selectedItem;
-
         public ObservableCollection<Item> Items { get; }
+      //  public ObservableCollection<Item> ItemsNotFiltered { get; }
         public Command LoadItemsCommand { get; }
         public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
 
+       
+
+     
         public ItemsViewModel()
         {
             Title = "Browse";
             Items = new ObservableCollection<Item>();
+       
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
             ItemTapped = new Command<Item>(OnItemSelected);
 
             AddItemCommand = new Command(OnAddItem);
         }
-
+     
         async Task ExecuteLoadItemsCommand()
         {
             IsBusy = true;
-
+            Debug.Print("REFRESH");
             try
             {
                 Items.Clear();
                 var items = await DataStore.GetItemsAsync(true);
                 foreach (var item in items)
                 {
-                    Items.Add(item);
+                    if(item.Location == UserData.Userlocation)
+                       Items.Add(item);
                 }
             }
             catch (Exception ex)
@@ -49,12 +55,14 @@ namespace CityInMotionApp.ViewModels
             {
                 IsBusy = false;
             }
+            Debug.Print(UserData.Userlocation);
         }
 
         public void OnAppearing()
         {
             IsBusy = true;
             SelectedItem = null;
+
         }
 
         public Item SelectedItem
@@ -77,6 +85,16 @@ namespace CityInMotionApp.ViewModels
             if (item == null)
                 return;
 
+            try
+            {
+                Items.Clear();
+                var items = await DataStore.GetItemsAsync(true);
+                
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+            }
             // This will push the ItemDetailPage onto the navigation stack
             await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.ItemId)}={item.Id}");
         }

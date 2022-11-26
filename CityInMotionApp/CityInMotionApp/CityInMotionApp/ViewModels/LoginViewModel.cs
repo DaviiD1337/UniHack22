@@ -11,7 +11,6 @@ namespace CityInMotionApp.ViewModels
 {
     public class LoginViewModel : INotifyPropertyChanged
     {
-        UserData userData = new UserData();
         public event PropertyChangedEventHandler PropertyChanged;
 
         public Command LoginCommand { get; }
@@ -27,7 +26,7 @@ namespace CityInMotionApp.ViewModels
 
         string userLocation;
         string userCnp;
-
+        
         public string UserCnp
         {
             get => userCnp;
@@ -42,7 +41,21 @@ namespace CityInMotionApp.ViewModels
 
             }
         }
-      
+
+        public string UserLocation
+        {
+            get => userLocation;
+            set
+            {
+                if (userLocation == value)
+                {
+                    return;
+                }
+                userLocation = value;
+                OnCnpChanged(nameof(userLocation));
+
+            }
+        }
 
         public void OnCnpChanged(string userCnp)
         {
@@ -58,12 +71,11 @@ namespace CityInMotionApp.ViewModels
         {
 
             // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
-            userData.userCnp = UserCnp;
+            UserData.userCnp = UserCnp;
+            UserData.Userlocation = UserLocation;
             Routing.RegisterRoute("//CnpPage", typeof(CnpPage));
-           Shell.Current.GoToAsync($"//{nameof(CnpPage)}");
-            Debug.Print(userData.userCnp);
-
-
+            Shell.Current.GoToAsync($"//{nameof(CnpPage)}");
+         
 
         }
 
