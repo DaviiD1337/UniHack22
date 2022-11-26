@@ -30,17 +30,101 @@
     <AppXManifest Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-26T13:23:56.178</Modified>
+      <Modified>2022-11-26T19:32:42.659</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\CityInMotionApp.UWP.exe">
       <PackagePath>entrypoint\CityInMotionApp.UWP.exe</PackagePath>
-      <Modified>2022-11-26T13:23:55.063</Modified>
+      <Modified>2022-11-26T19:32:40.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.aspnetcore.connections.abstractions\7.0.0\lib\netstandard2.0\Microsoft.AspNetCore.Connections.Abstractions.dll">
+      <PackagePath>Microsoft.AspNetCore.Connections.Abstractions.dll</PackagePath>
+      <Modified>2022-10-19T06:07:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.aspnetcore.http.connections.client\7.0.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Connections.Client.dll">
+      <PackagePath>Microsoft.AspNetCore.Http.Connections.Client.dll</PackagePath>
+      <Modified>2022-10-19T06:09:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.aspnetcore.http.connections.common\7.0.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Connections.Common.dll">
+      <PackagePath>Microsoft.AspNetCore.Http.Connections.Common.dll</PackagePath>
+      <Modified>2022-10-19T06:09:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.aspnetcore.signalr.client\7.0.0\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Client.dll">
+      <PackagePath>Microsoft.AspNetCore.SignalR.Client.dll</PackagePath>
+      <Modified>2022-10-19T06:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.aspnetcore.signalr.client.core\7.0.0\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Client.Core.dll">
+      <PackagePath>Microsoft.AspNetCore.SignalR.Client.Core.dll</PackagePath>
+      <Modified>2022-10-19T06:09:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.aspnetcore.signalr.common\7.0.0\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Common.dll">
+      <PackagePath>Microsoft.AspNetCore.SignalR.Common.dll</PackagePath>
+      <Modified>2022-10-19T06:09:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.aspnetcore.signalr.protocols.json\7.0.0\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll">
+      <PackagePath>Microsoft.AspNetCore.SignalR.Protocols.Json.dll</PackagePath>
+      <Modified>2022-10-19T06:09:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.bcl.asyncinterfaces\7.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+      <Modified>2022-10-18T16:20:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2022-10-18T16:21:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2022-10-18T16:20:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.extensions.features\7.0.0\lib\netstandard2.0\Microsoft.Extensions.Features.dll">
+      <PackagePath>Microsoft.Extensions.Features.dll</PackagePath>
+      <Modified>2022-10-19T06:07:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.extensions.logging\7.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2022-10-18T16:24:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2022-10-18T16:21:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.extensions.options\7.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2022-10-18T16:21:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.extensions.primitives\7.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2022-10-18T16:19:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2021-02-05T01:15:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.diagnostics.diagnosticsource\7.0.0\lib\netstandard2.0\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2022-10-18T16:21:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.io.pipelines\7.0.0\lib\netstandard2.0\System.IO.Pipelines.dll">
+      <PackagePath>System.IO.Pipelines.dll</PackagePath>
+      <Modified>2022-10-18T16:27:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.runtime.compilerservices.unsafe\6.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2021-10-22T23:40:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.text.encodings.web\7.0.0\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+      <Modified>2022-10-18T16:31:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.text.json\7.0.0\lib\netstandard2.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+      <Modified>2022-10-18T16:32:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.threading.channels\7.0.0\lib\netstandard2.0\System.Threading.Channels.dll">
+      <PackagePath>System.Threading.Channels.dll</PackagePath>
+      <Modified>2022-10-18T16:40:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -68,7 +152,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp\bin\Debug\netstandard2.0\CityInMotionApp.dll">
       <PackagePath>CityInMotionApp.dll</PackagePath>
-      <Modified>2022-11-26T13:36:30.646</Modified>
+      <Modified>2022-11-26T19:32:31.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -239,11 +323,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-11-26T13:23:54.981</Modified>
+      <Modified>2022-11-26T19:32:40.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-11-26T13:23:54.981</Modified>
+      <Modified>2022-11-26T19:32:40.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -259,11 +343,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-26T10:02:47.897</Modified>
+      <Modified>2022-11-26T14:56:09.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\Core\CityInMotionApp.UWP.exe">
       <PackagePath>CityInMotionApp.UWP.exe</PackagePath>
-      <Modified>2022-11-26T13:23:56.174</Modified>
+      <Modified>2022-11-26T19:32:42.655</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

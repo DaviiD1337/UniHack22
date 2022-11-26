@@ -1,6 +1,7 @@
 ﻿using CityInMotionApp.Models;
 using CityInMotionApp.UserInfo;
 using CityInMotionApp.Views;
+using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
@@ -36,7 +37,8 @@ namespace CityInMotionApp.ViewModels
         async Task ExecuteLoadItemsCommand()
         {
             IsBusy = true;
-            Debug.Print("REFRESH");
+            Debug.Print("REFRESH" + "/n");
+           
             try
             {
                 Items.Clear();

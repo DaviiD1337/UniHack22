@@ -1,7 +1,10 @@
 ﻿using CityInMotionApp.Models;
+using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -12,6 +15,9 @@ namespace CityInMotionApp.ViewModels
         private string text;
         private string description;
         private string location;
+        string finalMessage = "messagenotReceived";
+
+        HubConnection hubConnection;
 
         public NewItemViewModel()
         {
@@ -52,9 +58,29 @@ namespace CityInMotionApp.ViewModels
             // This will pop the current page off the navigation stack
             await Shell.Current.GoToAsync("..");
         }
-
+        
         private async void OnSave()
         {
+            var ip = "localhost";
+            if (Device.RuntimePlatform == Device.Android)
+                ip = "10.0.2.2";
+
+            hubConnection = new HubConnectionBuilder().WithUrl("http://172.20.10.10:7500/movehub").Build();
+
+            Debug.Print("12" + "/n");
+                await hubConnection.StartAsync();
+                await hubConnection.InvokeAsync("MoveViewFromServer", "un Titlu oarecare", "ceva", "Timisoara");
+
+
+            Debug.Print("XXXXXXX"+"/n");
+
+            hubConnection.On<string, string, string>("MoveViewFromServer", (Titlu, Description, location) =>
+            {
+                Debug.Print($"{Titlu}");
+                // Update the UI
+            });
+            
+
             Item newItem = new Item()
             {
                 Id = Guid.NewGuid().ToString(),
