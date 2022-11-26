@@ -1,1 +1,0 @@
-D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\CityInMotionApp.UWP.csproj;x64
