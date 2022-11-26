@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=4A0E25B7-B1DC-4D51-AC75-AF74A26FF6C7</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>015B258EA8C771FD2E92AE5F16D90BD5EE1EC3C7AC39C86549342A622980A777</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>60F8D856-6767-41FA-AECB-75D9B377D13A_1.0.0.0_x64__fvcf61jqhzb58</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>60F8D856-6767-41FA-AECB-75D9B377D13A_fvcf61jqhzb58!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-25T23:08:30.300</Modified>
+      <Modified>2022-11-26T01:27:28.221</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\CityInMotionApp.UWP.exe">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\CityInMotionApp.UWP.exe">
       <PackagePath>entrypoint\CityInMotionApp.UWP.exe</PackagePath>
-      <Modified>2022-11-25T23:08:27.368</Modified>
+      <Modified>2022-11-26T01:27:27.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -66,9 +66,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2021-10-14T09:55:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp\bin\Debug\netstandard2.0\CityInMotionApp.dll">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp\bin\Debug\netstandard2.0\CityInMotionApp.dll">
       <PackagePath>CityInMotionApp.dll</PackagePath>
-      <Modified>2022-11-25T23:10:32.216</Modified>
+      <Modified>2022-11-26T01:46:58.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -82,168 +82,168 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2021-10-14T09:49:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-11-25T21:49:14.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.772</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.891</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.921</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.926</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:13.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.058</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.068</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.072</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.077</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.085</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-25T21:49:14.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
       <Modified>2022-11-25T21:49:14.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\icon_about.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\icon_about.png">
       <PackagePath>icon_about.png</PackagePath>
       <Modified>2022-11-25T21:49:14.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\icon_feed.png">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\icon_feed.png">
       <PackagePath>icon_feed.png</PackagePath>
       <Modified>2022-11-25T21:49:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\CityInMotionApp.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\CityInMotionApp.UWP.xr.xml">
       <PackagePath>CityInMotionApp.UWP.xr.xml</PackagePath>
       <Modified>2022-11-25T23:08:27.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-11-25T23:08:27.294</Modified>
+      <Modified>2022-11-26T01:27:26.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-11-25T23:08:27.294</Modified>
+      <Modified>2022-11-26T01:27:26.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -257,13 +257,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-07-10T00:07:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2022-11-25T23:08:28.010</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\CityInMotion\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\Core\CityInMotionApp.UWP.exe">
+    <AppxPackagedFile Include="D:\0-ANDREI\proiecte vs\upload git\UniHack22\CityInMotionApp\CityInMotionApp\CityInMotionApp.UWP\bin\x64\Debug\Core\CityInMotionApp.UWP.exe">
       <PackagePath>CityInMotionApp.UWP.exe</PackagePath>
-      <Modified>2022-11-25T23:08:30.295</Modified>
+      <Modified>2022-11-26T01:27:28.216</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

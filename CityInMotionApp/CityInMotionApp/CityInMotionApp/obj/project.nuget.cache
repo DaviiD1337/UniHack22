@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N4nnrxnsslKQPs+WMyI7vVOSQ/Z53NFFccr2kZiAgQCa+u4kOjX94PRqKBtTen5Yt/lJXBdsruTk3zzIpSj4hw==",
+  "dgSpecHash": "Lj0oc/pvjxlDZIFxoD5AmlEB5spEYBy7THJvciz0tj9LxqNjQm8rrQFN+all0+wbWoctKzIXfk1ttV62stsMgg==",
   "success": true,
-  "projectFilePath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj",
+  "projectFilePath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.Android\\CityInMotionApp.Android.csproj",
+      "projectUniqueName": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.Android\\CityInMotionApp.Android.csproj",
       "projectName": "CityInMotionApp.Android",
-      "projectPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.Android\\CityInMotionApp.Android.csproj",
+      "projectPath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.Android\\CityInMotionApp.Android.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.Android\\obj\\",
+      "outputPath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj": {
-              "projectPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj"
+            "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj": {
+              "projectPath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj"
             }
           }
         }

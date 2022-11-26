@@ -1,30 +1,17 @@
 ﻿using CityInMotionApp.UserInfo;
-using CityInMotionApp.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Text;
+using CityInMotionApp.UserInfo;
+using CityInMotionApp.Views;
 using Xamarin.Forms;
 
 namespace CityInMotionApp.ViewModels
 {
-    public class LoginViewModel : INotifyPropertyChanged
+    class Bindings : INotifyPropertyChanged
     {
-        UserData userData = new UserData();
         public event PropertyChangedEventHandler PropertyChanged;
-
-        public Command LoginCommand { get; }
-
-        public LoginViewModel()
-        {
-           
-            LoginCommand = new Command(OnLoginClicked);
-            
-        }
-
-       
-
         string userLocation;
         string userCnp;
 
@@ -39,33 +26,20 @@ namespace CityInMotionApp.ViewModels
                 }
                 userCnp = value;
                 OnCnpChanged(nameof(UserCnp));
-
+               
             }
         }
+        UserData userData = new UserInfo.UserData();
       
-
         public void OnCnpChanged(string userCnp)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(userCnp));
-
+            
         }
         public void OnLcationChanged(string userLocation)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(userLocation));
         }
-
-        private void OnLoginClicked(object obj)
-        {
-
-            // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
-            userData.userCnp = UserCnp;
-            Routing.RegisterRoute("//CnpPage", typeof(CnpPage));
-           Shell.Current.GoToAsync($"//{nameof(CnpPage)}");
-            Debug.Print(userData.userCnp);
-
-
-
-        }
-
+     
     }
 }

@@ -547,11 +547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj",
+      "projectUniqueName": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj",
       "projectName": "CityInMotionApp",
-      "projectPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj",
+      "projectPath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\obj\\",
+      "outputPath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

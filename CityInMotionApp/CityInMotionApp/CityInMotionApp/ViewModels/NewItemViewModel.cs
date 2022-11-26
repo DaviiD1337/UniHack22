@@ -63,6 +63,7 @@ namespace CityInMotionApp.ViewModels
                 Location = Location
             };
 
+
             await DataStore.AddItemAsync(newItem);
 
             // This will pop the current page off the navigation stack

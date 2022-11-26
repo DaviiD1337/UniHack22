@@ -5,9 +5,9 @@ using System.Text;
 namespace CityInMotionApp.UserInfo
 {
 
-    internal class UserData
+    public class UserData
     {
-        public static int userCnp = 0 ;
-        public static string location = "null" ;
+        public string userCnp;
+        public string Userlocation;
     }
 }

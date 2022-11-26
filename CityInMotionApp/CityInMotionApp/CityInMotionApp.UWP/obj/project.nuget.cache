@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8oBo1N31+qdlLw27z6KGR96zQZnqVCHe0Cdcg8P6sOFqagnXDG0380yTitTgF8nIUDwJHUlP5FkjkFnvkOJ2KQ==",
+  "dgSpecHash": "CwRBAKQiDpZm7Xecd/A7y60BS38fX6ZPi2OjGk43JOsGYEEMp4A3wET1jQAgLQ8M7TW5JGdhXI6AmhhRjgZdkw==",
   "success": true,
-  "projectFilePath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.UWP\\CityInMotionApp.UWP.csproj",
+  "projectFilePath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.UWP\\CityInMotionApp.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

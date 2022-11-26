@@ -1068,11 +1068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.iOS\\CityInMotionApp.iOS.csproj",
+      "projectUniqueName": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.iOS\\CityInMotionApp.iOS.csproj",
       "projectName": "CityInMotionApp.iOS",
-      "projectPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.iOS\\CityInMotionApp.iOS.csproj",
+      "projectPath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.iOS\\CityInMotionApp.iOS.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.iOS\\obj\\",
+      "outputPath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1093,8 +1093,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj": {
-              "projectPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotion\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj"
+            "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj": {
+              "projectPath": "D:\\0-ANDREI\\proiecte vs\\upload git\\UniHack22\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp\\CityInMotionApp.csproj"
             }
           }
         }

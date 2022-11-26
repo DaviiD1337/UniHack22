@@ -17,7 +17,9 @@
                    FontSize="Medium"
                    FontAttributes="Bold"
                    />
-                <Entry Placeholder="CNP"
+                <Entry 
+                   Text="{Binding UserCnp}" 
+                    Placeholder="CNP"
                    TextColor="Black"
                    FontSize="Medium"
                     
@@ -25,13 +27,13 @@
                    MaxLength="300"
                    HorizontalOptions="FillAndExpand"
                    />
-                <Entry Placeholder="Location"
+                <Entry Placeholder="{Binding UserCnp}"
                    TextColor="Black"
                    FontSize="Medium"
                    HorizontalOptions="FillAndExpand"
                    BackgroundColor="LightBlue"
                    />
-            <Button HorizontalOptions="FillAndExpand" Text="Save" TextColor="Black" FontSize="Medium"/>
+            <Button HorizontalOptions="FillAndExpand" Text="Save" TextColor="Black" FontSize="Medium"  Command="{Binding LoginCommand}"/>
 
         </StackLayout>
         
