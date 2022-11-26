@@ -9,5 +9,6 @@ namespace CityInMotionApp.UserInfo
     {
         public static string userCnp;
         public static string Userlocation;
+       
     }
 }

@@ -73,9 +73,8 @@ namespace CityInMotionApp.ViewModels
             // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
             UserData.userCnp = UserCnp;
             UserData.Userlocation = UserLocation;
-            Routing.RegisterRoute("//CnpPage", typeof(CnpPage));
-            Shell.Current.GoToAsync($"//{nameof(CnpPage)}");
-         
+
+        
 
         }
 

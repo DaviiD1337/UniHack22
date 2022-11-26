@@ -2,16 +2,19 @@
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace CityInMotionApp.ViewModels
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
+ 
     public class ItemDetailViewModel : BaseViewModel
     {
         private string itemId;
         private string text;
         private string description;
+
         public string Id { get; set; }
 
         public string Text

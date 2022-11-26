@@ -18,7 +18,7 @@ namespace CityInMotionApp.ViewModels
         public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
 
-       
+        public static string title;
 
      
         public ItemsViewModel()
@@ -96,6 +96,8 @@ namespace CityInMotionApp.ViewModels
                 Debug.WriteLine(ex);
             }
             // This will push the ItemDetailPage onto the navigation stack
+            title = item.Text;
+            Debug.Print(title);
             await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.ItemId)}={item.Id}");
         }
     }

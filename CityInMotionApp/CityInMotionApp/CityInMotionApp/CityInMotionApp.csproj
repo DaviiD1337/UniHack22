@@ -6,6 +6,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\banner_CIM.png" />
+    <None Remove="Images\login.png" />
+    <None Remove="Images\LOGO_CIM.png" />
+    <None Remove="Images\stea_alb.png" />
+    <None Remove="Images\stea_galben.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\banner_CIM.png" />
+    <EmbeddedResource Include="Images\login.png" />
+    <EmbeddedResource Include="Images\LOGO_CIM.png" />
+    <EmbeddedResource Include="Images\stea_alb.png" />
+    <EmbeddedResource Include="Images\stea_galben.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>

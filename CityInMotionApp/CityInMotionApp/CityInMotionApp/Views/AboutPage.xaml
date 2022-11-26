@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CityInMotionApp.Views.AboutPage"
              xmlns:vm="clr-namespace:CityInMotionApp.ViewModels"
+             xmlns:local ="clr-namespace:CityInMotionApp"
              Title="{Binding Title}"
              BackgroundColor="white">
     
@@ -16,8 +17,15 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid>
-    
-    </Grid>
+    <ScrollView>
+        <StackLayout Margin="30,10,30,10">
+
+            <Image  Source ="{local:ImageResource CityInMotionApp.Images.banner_CIM.png}" Scale="0.9" />
+            <Label Margin="0,30,0,0" Text="asdfgnmknbvcdsdfghjm,mnbvcdxsdfgbhnjmhbgfdsasdfgbhnjmjhgfdsasdfghjhgfdsasdfghjhgfdsasdfghsdfgbhnjhgfdsasdfghjnhbgvfdsasdfghnjmjnhbgvfdsdfghjmnbvcxsdfghmnbvcxszdfgbhnmnbvcxsvgbhnm"
+                   FontSize="Medium"
+                   TextColor="Black"/>
+        </StackLayout>
+        
+    </ScrollView>
 
 </ContentPage>

@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CityInMotionApp.App.xaml", "App.xaml", typeof(global::CityInMotionApp.App))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CityInMotionApp.Views.App.xaml", "Views/App.xaml", typeof(global::CityInMotionApp.App))]
 
 namespace CityInMotionApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
