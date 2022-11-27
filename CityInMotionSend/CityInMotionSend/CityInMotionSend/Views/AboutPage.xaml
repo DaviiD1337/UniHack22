@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CityInMotionSend.Views.AboutPage"
+             xmlns:vm="clr-namespace:CityInMotionSend.ViewModels"
+             xmlns:local="clr-namespace:CityInMotionSend"
+             Title="{Binding Title}">
+   
+   
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Margin="10,10,10,10">
+            <Image Source ="{local:ImageResource CityInMotionSend.images.banner_CIM.png}" />
+            <Label Text="Welcome to our application!
+Using this application you can give a feedback to future projects so that the development of the city will also be based on your opinion.
+
+How does the application work?
+Accessing the login page, you will have to enter your CNP and the city you belong to. Then on the Browse page you will find proposed ideas for your city.
+You can access the projects to form an opinion about them, after which you can encourage them." FontSize="Medium" TextColor="Black"/>
+        </StackLayout>
+       
+    </ScrollView>
+</ContentPage>

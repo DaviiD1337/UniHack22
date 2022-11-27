@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\+1.png" />
+    <None Remove="images\-1.png" />
+    <None Remove="images\banner_CIM.png" />
+    <None Remove="images\login.png" />
+    <None Remove="images\LOGO_CIM.png" />
+    <None Remove="images\stea_alb.png" />
+    <None Remove="images\stea_galben.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\+1.png" />
+    <EmbeddedResource Include="images\-1.png" />
+    <EmbeddedResource Include="images\banner_CIM.png" />
+    <EmbeddedResource Include="images\login.png" />
+    <EmbeddedResource Include="images\LOGO_CIM.png" />
+    <EmbeddedResource Include="images\stea_alb.png" />
+    <EmbeddedResource Include="images\stea_galben.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+</Project>

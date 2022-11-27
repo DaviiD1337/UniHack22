@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CityInMotionSend.Views.NewItemPage"
+             Shell.PresentationMode="ModalAnimated"
+             Title="New Item"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Spacing="3" Padding="15">
+            <Label Text="Text" FontSize="Medium" />
+            <Entry Text="{Binding Text, Mode=TwoWay}" FontSize="Medium" TextColor="Black"  BackgroundColor="LightBlue"/>
+            <Label Text="Description" FontSize="Medium" TextColor="Black"/>
+            <Editor Text="{Binding Description, Mode=TwoWay}" AutoSize="TextChanges" FontSize="Medium" Margin="0" TextColor="Black" BackgroundColor="LightBlue" />
+            <Label Text="Location" FontSize="Medium" TextColor="Black"/>
+            <Entry Text="{Binding Location, Mode=TwoWay}" FontSize="Medium" TextColor="Black" BackgroundColor="LightBlue" />
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
+                <Button Text="Save" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+            <Label Text="You can't add news or projects if you are not authorized" TextColor="Black"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
