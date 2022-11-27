@@ -53,11 +53,12 @@ namespace CityInMotionSend.ViewModels
         }
 
 
-        private  void OnLoginClicked(object obj)
+        private async void OnLoginClicked(object obj)
         {
             // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
             UserData.userCnp = UserCnp;
             UserData.Userlocation = UserLocation;
+            await App.Current.MainPage.DisplayAlert(" ", "You are logged in", "OK");
         }
     }
 }

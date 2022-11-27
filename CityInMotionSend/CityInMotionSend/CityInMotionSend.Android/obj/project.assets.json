@@ -4499,24 +4499,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andre\\.nuget\\packages\\": {},
+    "C:\\Users\\vasut\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0-ANDREI\\proiecte vs\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.Android\\CityInMotionSend.Android.csproj",
+      "projectUniqueName": "C:\\Users\\vasut\\source\\repos\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.Android\\CityInMotionSend.Android.csproj",
       "projectName": "CityInMotionSend.Android",
-      "projectPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.Android\\CityInMotionSend.Android.csproj",
-      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.Android\\obj\\",
+      "projectPath": "C:\\Users\\vasut\\source\\repos\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.Android\\CityInMotionSend.Android.csproj",
+      "packagesPath": "C:\\Users\\vasut\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vasut\\source\\repos\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vasut\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4530,8 +4530,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "D:\\0-ANDREI\\proiecte vs\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.csproj": {
-              "projectPath": "D:\\0-ANDREI\\proiecte vs\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.csproj"
+            "C:\\Users\\vasut\\source\\repos\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.csproj": {
+              "projectPath": "C:\\Users\\vasut\\source\\repos\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend\\CityInMotionSend.csproj"
             }
           }
         }

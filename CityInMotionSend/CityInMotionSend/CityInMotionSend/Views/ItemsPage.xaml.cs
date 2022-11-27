@@ -52,7 +52,7 @@ namespace CityInMotionSend.Views
                     Debug.WriteLine("1");
                 }
 
-                if (hubConnection.State == HubConnectionState.Connected)
+               /* if (hubConnection.State == HubConnectionState.Connected)
                 {
                     int vote = 0;
                     for (int i = 0; i < MockDataStore.items.Count; i++)
@@ -65,7 +65,7 @@ namespace CityInMotionSend.Views
                     }
 
 
-                }
+                }*/
 
                 hubConnection.On<string, string, string, int>("ReceiveNewPosition", (Titlu, Description, Location,Rating) =>
                     {
@@ -93,9 +93,10 @@ namespace CityInMotionSend.Views
                         {
                             for (int i = 0; i < MockDataStore.items.Count; i++)
                             {
-                                if (MockDataStore.items[i].Text == newItem.Text && ItemDetailPage.ok == 0)
+                                if (MockDataStore.items[i].Text == newItem.Text)
                                 {
-                                    MockDataStore.items[i].Rating++;
+                                    if(MockDataStore.items[i].Rating > 1)
+                                          MockDataStore.items[i].Rating++;
                                 }
                             }
                         }

@@ -4,15 +4,18 @@
              x:Class="CityInMotionSend.Views.ItemDetailPage"
              Title="{Binding Title}">
 
-    <StackLayout Spacing="20" Padding="15">
-        <Label Text="Text:" FontSize="Medium"  TextColor="Black"/>
-        <Label Text="{Binding Text}" FontSize="Small"  TextColor="Black"/>
-        <Label Text="Description:" FontSize="Medium"  TextColor="Black" />
-        <Label Text="{Binding Description}" FontSize="Small"  TextColor="Black"/>
-        <Label Text="You can't change your vote later"  TextColor="Black"/>
-      
-        <Button Text="SubmitVote" Clicked="Button_Clicked_2"/>
-        <Label Text="{Binding Rating}" TextColor="Black"/>
-    </StackLayout>
+    
+    <ScrollView>
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Title:" FontSize="Medium"  TextColor="Black"/>
+            <Label Text="{Binding Text}" FontSize="Small"  TextColor="Black"/>
+            <Label Text="Description:" FontSize="Medium"  TextColor="Black" />
+            <Label Text="{Binding Description}" FontSize="Small"  TextColor="Black"/>
+            <Label Text="You can't change your decision later"  TextColor="Black"/>
+
+            <Button Text="Encourage" Clicked="Button_Clicked_2"/>
+            <Label Text="{Binding Rating}" TextColor="Black"/>
+        </StackLayout>
+    </ScrollView>
     
 </ContentPage>
